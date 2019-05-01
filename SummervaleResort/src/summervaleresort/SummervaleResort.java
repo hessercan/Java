@@ -30,7 +30,7 @@ public class SummervaleResort extends JFrame implements ActionListener
     private final String ACT_BOWL_STR = "Bowling Games @ $4/person, Shoe Rental @ $3/person";
     
     //Integars
-    private final int WIDTH = 650;
+    private final int WIDTH = 600;
     private final int HEIGHT = 200;    
     
     //Main Menu Bar

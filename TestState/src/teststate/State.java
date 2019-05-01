@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Mark Hesser
+ * HesserCAN
+ * mark@hessercan.com
+ * www.hessercan.com
  */
 package teststate;
 
@@ -14,14 +15,14 @@ public class State {
     private final int Population;
     private final City Capital;
     private final City Big;
-    
+
     public State(String nom, int pop, String capName, int capPop, String bigName, int bigPop){
         Name = nom;
         Population = pop;
         Capital = new City(capName, capPop);
         Big = new City(bigName, bigPop);
     }
-    
+
     public String getName(){
         return Name;
     }
